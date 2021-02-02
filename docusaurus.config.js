@@ -54,4 +54,12 @@ module.exports = {
       },
     ],
   ],
+  stylesheets: [
+
+    {
+      href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css',
+      type: 'text/css',
+    },
+    
+  ]
 };

@@ -1,0 +1,28 @@
+.sideBar {
+  display: block;
+  display: inline;
+  float: left;
+  width: 16.666666666666668%;
+  margin-right: 4.166666666666667%;
+  margin-left: 4.166666666666667%;
+}
+
+.bioPhoto {
+  border-radius: 150px;
+}
+
+.sideBar p {
+  max-width: 150px;
+  font-size: 80%;
+  font-style: italic;
+}
+.sideBar .authorSocial{
+  max-width: 150px;
+  margin-bottom: 5px;
+}
+.authorSocial {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-size: .875rem;
+}
