@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Muhriddin's Log",
+  title: "Muhriddin's Log Book",
   tagline: 'Computer Science, Artificial Intelligence, Machine Learning',
   url: 'https://IsmoilovMuhriddin.github.io',
   baseUrl: '/',
@@ -10,74 +10,31 @@ module.exports = {
   projectName: 'IsmoilovMuhriddin.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
-      logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
-      },
+      title: 'Muhriddin Ismoilov',
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          to: 'curriculum/',
+          activeBasePath: 'curriculum',
+          label: 'Curriculum',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          to: 'articles/',
+          label: 'Articles',
+          position: 'left',
+        },
+        {
+          to: 'projects/',
+          activeBasePath: 'projects/',
+          label: 'Projects',
+          position: 'left',
         },
       ],
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Muhriddin Ismoilov. Built with <a href='https://v2.docusaurus.io/'>Docusaurus.</a>`,
     },
   },
   presets: [
@@ -87,14 +44,9 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
