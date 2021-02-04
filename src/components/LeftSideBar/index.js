@@ -28,7 +28,7 @@ function LeftSideBar() {
         GitHub
       </a>
       <a
-        href={`mailto:muhriddin.ismoilov.job`}
+        href={`mailto:muhriddin.ismoilov.job@gmail.com`}
         className={styles.authorSocial}
         target="_blank"
       >
